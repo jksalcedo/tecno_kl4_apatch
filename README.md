@@ -1,6 +1,5 @@
 # Migrating to APatch on Tecno Spark Go 1 (KL4)
 
-### Background
 I was currently running an InfinityX GSI rooted with SukiSU-Ultra, but I wanted to migrate over to APatch. The tricky part was that I had completely forgotten my exact current build version. On this phone, having the exact same build variant (or region, like OPPJ) is mandatory. This is a simple tutorial on how I safely made it.
 
 ### The Toolkit
@@ -28,6 +27,7 @@ adb shell getprop ro.vendor.build.fingerprint
 - [Apatch Docs](https://apatch.dev/what-is-apatch.html)
 - [Apatch Manager](https://apatch.dev/what-is-apatch.html](https://github.com/bmax121/APatch/releases))
 - [KL4 Firmwares](https://www.needrom.com/download/tecno-kl4/)
+- [InfinityX GSI](https://github.com/Doze-off/ProjectInfinity-X_gsi)
 
 ### Warning
 Always use `spd_dump` to read and backup your current `boot` partitions before you write any new images to your phone.
